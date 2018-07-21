@@ -313,7 +313,7 @@
 		margin-left: 8.33333%;
 	}
 
-	@media screen and (max-width: 1680px) {
+/*	@media screen and (max-width: 1680px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -526,9 +526,9 @@
 			margin-left: 8.33333%;
 		}
 
-	}
+	}*/
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1600px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -1646,15 +1646,15 @@
 		line-height: 1.75;
 	}
 
-		@media screen and (max-width: 1680px) {
+/*		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
 				font-size: 13pt;
 			}
 
-		}
+		}*/
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1600px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -2579,11 +2579,11 @@
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: black;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: black;
 				}
 
 				.wrapper..style5 .icon.major:before {
@@ -2944,7 +2944,7 @@
 		.split.style1 > :nth-child(2n) {
 			width: calc(33.33333% - 2.5em);
 		}
-
+/*
 		@media screen and (max-width: 1680px) {
 
 			.split > * {
@@ -2967,7 +2967,7 @@
 				width: calc(33.33333% - 2em);
 			}
 
-		}
+		}*/
 
 		@media screen and (max-width: 980px) {
 
@@ -3106,13 +3106,13 @@
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 1680px) {
+/*		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .content {
 				padding: 4em 4em 2em 4em ;
 			}
 
-		}
+		}*/
 
 		@media screen and (max-width: 980px) {
 
@@ -3230,16 +3230,16 @@
 			max-width: 100%;
 			width: 75em;
 		}
-
+/*
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
 					padding: 4em 4em 2em 4em ;
 				}
 
-			}
+			}*/
 
-			@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 1600px) {
 
 				.wrapper > .inner {
 					width: 100%;
@@ -3278,11 +3278,11 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: black;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: black;
 		}
 
 		.wrapper.style4 {
@@ -3321,7 +3321,7 @@
 				height: 100vh;
 			}
 
-			@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 1600px) {
 
 				.wrapper.fullscreen {
 					min-height: calc(100vh - 2.5em);
@@ -3503,7 +3503,7 @@
 		margin-left: 18em;
 	}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1600px) {
 
 			#sidebar + #wrapper {
 				margin-left: 0;
@@ -3530,7 +3530,7 @@
 		margin-left: 18em;
 	}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1600px) {
 
 			#sidebar + #wrapper + #footer {
 				margin-left: 0;
@@ -3835,7 +3835,7 @@
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1600px) {
 
 			#sidebar {
 				height: 3.5em;
@@ -3935,7 +3935,7 @@
 
 			}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1600px) {
 
 			#intro {
 				background-attachment: scroll;
