@@ -2260,7 +2260,7 @@
 		@media screen and (max-width: 736px) {
 
 			.features section {
-				padding: 2.5em 1.5em 0.1em 5.5em ;
+				padding: 2.5em 1.5em 2.5em 5.5em ;
 			}
 
 				.features section .icon {
@@ -3114,7 +3114,21 @@
 
 		}*/
 
-		@media screen and (max-width: 980px) {
+		.mailchimp {
+			width:90%;
+			margin: auto auto;
+			background-color: #b53787;
+		}
+
+		@media screen and (min-width: 700px) {
+			.mailchimp {
+				width:50%;
+				margin: auto auto;
+				background-color: #b53787;
+			}
+		}
+
+		@media screen and (max-width: 1600px) {
 
 			.spotlights > section {
 				display: block;
@@ -3122,11 +3136,14 @@
 
 				.spotlights > section > .image {
 					width: 100%;
-					height: 50vh;
+					height: 60vh;
 				}
 
 				.spotlights > section > .content {
 					width: 100%;
+					text-align: center;
+					max-width: 950px;
+					margin: auto;
 				}
 
 				.spotlights > section.inactive > .content > .inner, body.is-loading .spotlights > section > .content > .inner {
